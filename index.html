@@ -1,0 +1,869 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>MoGo</title>
+	
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="fontawesome/font-awesome.min.css">
+
+</head>
+<body>
+	<header class="header text-center">
+		<div class="container">
+			<nav class="navbar navbar-expand-md bg-transparent navbar-light">
+			  <!-- Brand -->
+			  <a class="navbar-brand" href="#">MoGo</a>
+
+			  <!-- Navbar links -->
+			  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+			    <ul class="navbar-nav d-flex float-right">
+			      <li class="nav-item">
+			        <a class="nav-link" href="#">ABOUT</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="#">SERVICE</a>
+			      </li>
+			      <li class="nav-item">
+				      <a class="nav-link" href="#">WORK</a>
+				    </li>
+				    <li class="nav-item">
+				      <a class="nav-link" href="#">BLOG</a>
+				    </li>
+				    <li class="nav-item">
+				      <a class="nav-link" href="#">CONTACT</a>
+				    </li>
+				    <li class="nav-item">
+				      <i class="fa fa-shopping-cart nav-link" href="#"></i>
+				    </li>
+				    <li class="nav-item">
+				    	<form class="form-search" action="#">
+					      <input type="text" placeholder="search..." name="search" class="search">
+					      <button class="search-icon" type="submit"><i class="fa fa-search search-icon" href="#"></i></button>
+					    </form>
+				    </li>
+			    </ul>
+			  </div>
+			</nav>
+
+				<button class="btn btn-default open-nav" onclick="openNav()">
+							&#9776
+						</button>
+
+			<div id="mySidenav" class="sidenav text-left">
+			  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			  
+		  	<form class="side-search" action="#">
+		      <input type="text" placeholder="search..." name="search" class="side-input">
+		      <button class="side-icon" type="submit"><i class="fa fa-search side-icon" href="#"></i></button>
+		    </form>
+			  
+			  <a class="side-about" href="#">ABOUT</a>
+			  <a href="#">SERVICE</a>
+			  <a href="#">WORK</a>
+			  <a href="#">BLOG</a>
+			  <a href="#">CONTACT</a>
+			</div>
+			
+			<h3 class="header-supheader text-center text-white">Creative Template</h3>
+			<h1 class="header-header text-center text-white">Welcome to MoGo</h1>
+			<button class="learn-more">LEARN MORE</button>
+			<div class="row">
+				<div class="col-md-3 col-sm-6">
+					<div class="skill-bar">
+						<div class="skill-box">
+							<div class="skill-length"></div>
+						</div>
+						<div class="skill-name"><span>01</span> INTRO</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<div class="skill-bar">
+						<div class="skill-box">
+							<div class="skill-length"></div>
+						</div>
+						<div class="skill-name"><span>02</span> WORK</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<div class="skill-bar">
+						<div class="skill-box">
+							<div class="skill-length"></div>
+						</div>
+						<div class="skill-name"><span>03</span> ABOUT</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<div class="skill-bar">
+						<div class="skill-box">
+							<div class="skill-length"></div>
+						</div>
+						<div class="skill-name"><span>04</span> CONTACTS</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section class="about-us">
+		<div class="container text-center">
+			<h4 class="section-supheader">What we do</h4>
+			<h3 class="section-header">Story about us</h3>
+			<p class="about-perig">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum repellat cumque omnis amet, possimus in voluptatibus delectus sint, autem, ratione sit! Quis asperiores doloribus voluptatibus veritatis esse, itaque ut quae rerum ex corporis, dolorem impedit.</p>
+			<div class="row about-row">
+				<div class="col-md-4">
+					<div class="img-box">
+						<img src="img/about.jpg" alt="" class="box-img">
+						<div class="img-over"></div>
+						<div class="over-icon">
+							<img src="img/users-icon.png" alt="">
+							<h5 class="over-perig">SUPER TEAM</h5>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="img-box">
+						<img src="img/about1.png" alt="" class="box-img">
+						<div class="img-over"></div>
+						<div class="over-icon">
+							<img src="img/users-icon.png" alt="">
+							<h5 class="over-perig">SUPER TEAM</h5>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="img-box">
+						<img src="img/about2.png" alt="" class="box-img">
+						<div class="img-over"></div>
+						<div class="over-icon">
+							<img src="img/users-icon.png" alt="">
+							<h5 class="over-perig">SUPER TEAM</h5>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="about-bottom">
+			<div class="container">
+				<div class="bottom-blocs text-center">
+					<div class="bottom-block">
+						<h1 class="block-number text-light">42</h1>
+						<div class="block-header">Web Design Projects</div>
+					</div>
+					<div class="bottom-block">
+						<h1 class="block-number text-light">123</h1>
+						<div class="block-header">happy client</div>
+					</div>
+					<div class="bottom-block">
+						<h1 class="block-number text-light">15</h1>
+						<div class="block-header">award winner</div>
+					</div>
+					<div class="bottom-block">
+						<h1 class="block-number text-light">99</h1>
+						<div class="block-header">cup of coffee</div>
+					</div>
+					<div class="bottom-block">
+						<h1 class="block-number text-light">24</h1>
+						<div class="block-header">members</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>	
+	<section class="amazing">
+		<div class="container text-center">
+			<div class="section-supheader">We work with</div>
+			<div class="section-header">Amazing Services</div>
+			<div class="row row1">
+				<div class="col-md-4 col-sm-6 col-10 offset-md-0 offset-sm-0 offset-1">
+					<div class="service ">
+						<div class="service-left">
+							<img src="img/amazing/r1.png" alt="">
+						</div>
+						<div class="service-right">
+							<h4 class="service-header">Photography</h4>
+							<p class="service-parag">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, repellat!</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6 col-10 offset-md-0 offset-sm-0 offset-1">
+					<div class="service ">
+						<div class="service-left">
+							<img src="img/amazing/r2.png" alt="">
+						</div>
+						<div class="service-right">
+							<h4 class="service-header">Web Design</h4>
+							<p class="service-parag">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, repellat!</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6 col-10 offset-md-0 offset-sm-0 offset-1">
+					<div class="service ">
+						<div class="service-left">
+							<img src="img/amazing/r3.png" alt="">
+						</div>
+						<div class="service-right">
+							<h4 class="service-header">Creativity</h4>
+							<p class="service-parag">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, repellat!</p>
+						</div>
+					</div>
+				</div>
+				<hr class="divider">
+				<div class="col-md-4 col-sm-6 col-10 offset-md-0 offset-sm-0 offset-1">
+					<div class="service ">
+						<div class="service-left">
+							<img src="img/amazing/s1.png" alt="">
+						</div>
+						<div class="service-right">
+							<h4 class="service-header">seo</h4>
+							<p class="service-parag">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, repellat!</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6 col-10 offset-md-0 offset-sm-0 offset-1">
+					<div class="service ">
+						<div class="service-left">
+							<img src="img/amazing/s2.png" alt="">
+						</div>
+						<div class="service-right">
+							<h4 class="service-header">Css/Html</h4>
+							<p class="service-parag">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, repellat!</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6 col-10 offset-md-0 offset-sm-0 offset-1">
+					<div class="service ">
+						<div class="service-left">
+							<img src="img/amazing/s3.png" alt="">
+						</div>
+						<div class="service-right">
+							<h4 class="service-header">digital</h4>
+							<p class="service-parag">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, repellat!</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="design">
+		<div class="container text-center">
+			<div class="section-supheader">For all devices</div>
+			<div class="section-header">Unique design</div>
+		</div>
+		<div class="design-img">
+			<img class="design-tablet" src="img/amazing/design-tablet.png" alt="">
+			<img src="img/amazing/design-iphone.png" alt="" class="design-iphone">
+		</div>
+	</section>
+	<section class="service">
+		<div class="container text-center">
+			<div class="section-supheader">Service</div>
+			<div class="section-header">what we do</div>
+			<p class="about-perig">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum repellat cumque omnis amet, possimus in voluptatibus delectus sint, autem, ratione sit! Quis asperiores doloribus voluptatibus veritatis esse, itaque ut quae rerum ex corporis, dolorem impedit.</p>
+			<div class="row">
+				<div class="col-md-6">
+					<div class="service-left1">
+						<img src="img/service-img.png" alt="">
+					</div>
+					
+				</div>
+				<div class="col-md-6">
+					<div id="accordion">
+
+					  <div class="card">
+					    <div class="card-header">
+					      <div class="card-link" data-toggle="collapse" href="#collapseOne" aria-expanded = "true">
+					        <div class="link-left">
+					        	<img src="img/service/s1.png" alt="">
+					        </div>
+					        <div class="link-right">Photography</div>
+					        <i class="fa fa-chevron-down"></i>
+									<i class="fa fa-chevron-up"></i>
+					      </div>
+					    </div>
+					    <div id="collapseOne" class="collapse show" data-parent="#accordion">
+					      <div class="card-body">
+					        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium dolorem sunt quod aliquid, accusamus vitae reiciendis sequi esse, fuga necessitatibus suscipit, incidunt, sapiente optio iusto. Cumque sint eius voluptatum vero aperiam consectetur quod mollitia, excepturi esse consequatur eos, dolor pariatur maxime cum ratione perferendis, recusandae molestias fugit distinctio. Reprehenderit, eum!
+					      </div>
+					    </div>
+					  </div>
+
+					  <div class="card">
+					    <div class="card-header">
+					      <div class="card-link" data-toggle="collapse" href="#collapseTwo" aria-expanded = "false">
+					        <div class="link-left">
+					        	<img src="img/service/s2.png" alt="">
+					        </div>
+					        <div class="link-right">creativity</div>
+					        <i class="fa fa-chevron-down"></i>
+									<i class="fa fa-chevron-up"></i>
+					      </div>
+					    </div>
+					    <div id="collapseTwo" class="collapse" data-parent="#accordion">
+					      <div class="card-body">
+					        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem harum quia obcaecati fuga a repellat, et laudantium enim eligendi accusamus. Voluptas molestiae ipsa dignissimos recusandae praesentium ex deleniti quis animi aliquid asperiores nisi veniam vero dolore earum sed aperiam doloribus quas, laborum, minima alias eos. Quas unde rem incidunt velit.
+					      </div>
+					    </div>
+					  </div>
+
+					  <div class="card">
+					    <div class="card-header">
+					      <div class="card-link" data-toggle="collapse" href="#collapseThree" aria-expanded = "false">
+					        <div class="link-left">
+					        	<img src="img/service/s3.png" alt="">
+					        </div>
+					        <div class="link-right">web design</div>
+					        <i class="fa fa-chevron-down"></i>
+									<i class="fa fa-chevron-up"></i>
+					      </div>
+					    </div>
+					    <div id="collapseThree" class="collapse" data-parent="#accordion">
+					      <div class="card-body">
+					        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae libero amet officia nisi assumenda rerum nostrum quia ex! Sunt porro, blanditiis molestias aliquam rerum hic, distinctio voluptas voluptatibus esse eveniet possimus veritatis aut, sapiente, culpa perspiciatis maxime similique! Quidem, id! Harum inventore temporibus a reiciendis. Eos fugiat totam aliquid magni.
+					      </div>
+					    </div>
+					  </div>
+
+					</div>
+				</div>
+			</div>
+			
+			
+		</div>
+	</section>
+	<section class="chat-slider">
+		<div class="slick-slider">
+			<div class="slider-items">
+				<div class="slider-item">
+					<div class="chat-left">
+						<div class="chat-img">
+							<img src="img/service/chat.png" alt="">
+						</div>
+					</div>
+					<div class="chat-right">
+						<p class="chat-perig">"<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta aut consequuntur pariatur placeat asperiores accusamus laudantium sint quisquam eveniet tempora?</span>"</p>
+						<div class="chat-name"><div class="name-before"></div>Jon Doe</div>
+					</div>
+				</div>
+				<div class="slider-item">
+					<div class="chat-left">
+						<div class="chat-img">
+							<img src="img/service/chat.png" alt="">
+						</div>
+					</div>
+					<div class="chat-right">
+						<p class="chat-perig">"<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta aut consequuntur pariatur placeat asperiores accusamus laudantium sint quisquam eveniet tempora?</span>"</p>
+						<div class="chat-name"><div class="name-before"></div>Jane Doe</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="who-we">
+		<div class="container text-center">
+			<div class="section-supheader">Who we are</div>
+			<div class="section-header">Meet our team</div>
+			<p class="about-perig">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum repellat cumque omnis amet, possimus in voluptatibus delectus sint, autem, ratione sit! Quis asperiores doloribus voluptatibus veritatis esse, itaque ut quae rerum ex corporis, dolorem impedit.</p>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="team-card">
+						<div class="card-img">
+							<img src="img/team/capRX.PNG" alt="" class="card-img-top">
+							<div class="card-over"></div>
+							<div class="card-over1"></div>
+							<div class="over-icon1">
+								<div>
+									<a href="https://facebook.com" target="_blank">
+										<i class="fa fa-facebook"></i>
+									</a>
+								</div>
+								<div>
+									<a href="https://twitter.com" target="_blank">
+										<i class="fa fa-twitter"></i>
+									</a>
+								</div>
+								<div>
+									<a href="https://pinterst.com" target="_blank">
+										<i class="fa fa-pinterest-p"></i>
+									</a>
+								</div>
+								<div>
+									<a href="https://instagram.com" target="_blank">
+										<i class="fa fa-instagram"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="card-bodyy">
+						<div class="team-header">Rixsitillo Xomidov</div>
+						<div class="team-subheader">Web Developer</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="team-card">
+						<div class="card-img">
+							<img src="img/team/elpistolero.PNG" alt="" class="card-img-top">
+							<div class="card-over"></div>
+							<div class="card-over1"></div>
+							<div class="over-icon1">
+								<div>
+									<a href="https://facebook.com" target="_blank">
+										<i class="fa fa-facebook"></i>
+									</a>
+								</div>
+								<div>
+									<a href="https://twitter.com" target="_blank">
+										<i class="fa fa-twitter"></i>
+									</a>
+								</div>
+								<div>
+									<a href="https://pinterst.com" target="_blank">
+										<i class="fa fa-pinterest-p"></i>
+									</a>
+								</div>
+								<div>
+									<a href="https://instagram.com" target="_blank">
+										<i class="fa fa-instagram"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="card-bodyy">
+						<div class="team-header">Rixsitillo Xomidov</div>
+						<div class="team-subheader">Web Developer</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="team-card">
+						<div class="card-img">
+							<img src="img/team/inbrasil.PNG" alt="" class="card-img-top">
+							<div class="card-over"></div>
+							<div class="card-over1"></div>
+							<div class="over-icon1">
+								<div>
+									<a href="https://facebook.com" target="_blank">
+										<i class="fa fa-facebook"></i>
+									</a>
+								</div>
+								<div>
+									<a href="https://twitter.com" target="_blank">
+										<i class="fa fa-twitter"></i>
+									</a>
+								</div>
+								<div>
+									<a href="https://pinterst.com" target="_blank">
+										<i class="fa fa-pinterest-p"></i>
+									</a>
+								</div>
+								<div>
+									<a href="https://instagram.com" target="_blank">
+										<i class="fa fa-instagram"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="card-bodyy">
+						<div class="team-header">Rixsitillo Xomidov</div>
+						<div class="team-subheader">Web Developer</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="partners">
+		<div class="container text-center">
+			<div class="partner-blocks">
+				<div class="partner-block">
+					<img src="img/partners/1.png" alt="" class="partner-img partner1">
+				</div>
+				<div class="partner-block">
+					<img src="img/partners/2.png" alt="" class="partner-img partner3">
+				</div>
+				<div class="partner-block">
+					<img src="img/partners/3.png" alt="" class="partner-img">
+				</div>
+				<div class="partner-block">
+					<img src="img/partners/4.png" alt="" class="partner-img">
+				</div>
+				<div class="partner-block">
+					<img src="img/partners/5.png" alt="" class="partner-img">
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- <section class="we-do">
+		<div class="container text-center">
+			<div class="section-supheader">What we do</div>
+			<div class="section-header">some of our work</div>
+			<p class="about-perig">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum repellat cumque omnis amet, possimus in voluptatibus delectus sint, autem, ratione sit! Quis asperiores doloribus voluptatibus veritatis esse, itaque ut quae rerum ex corporis, dolorem impedit.</p>
+		</div>
+		<table class="table-works">
+		  <tr>
+		    <td>
+		    	<img src="img/works/1.png" alt="" class="table-img">
+		    	<div class="img-over3"></div>
+					<div class="over-icon3">
+						<img src="img/works/pict.png" alt="">
+						<h5 class="over-perig1">creatively designed</h5>
+						<p class="over-perig2">Lorem ipsum dolor sit.</p>
+					</div>
+		    </td>
+		    <td>
+		    	<img src="img/works/2.png" alt="" class="table-img">
+		    	<div class="img-over3"></div>
+					<div class="over-icon3">
+						<img src="img/works/pict.png" alt="">
+						<h5 class="over-perig1">creatively designed</h5>
+						<p class="over-perig2">Lorem ipsum dolor sit.</p>
+					</div>
+		    </td>
+		    <td rowspan="2" class="rowspan">
+		    	<img src="img/works/3.png" alt="" class="table-img">
+		    	<div class="img-over3"></div>
+					<div class="over-icon3">
+						<img src="img/works/pict.png" alt="">
+						<h5 class="over-perig1">creatively designed</h5>
+						<p class="over-perig2">Lorem ipsum dolor sit.</p>
+					</div>
+		    </td>
+		    <td>
+		    	<img src="img/works/4.png" alt="" class="table-img">
+		    	<div class="img-over3"></div>
+					<div class="over-icon3">
+						<img src="img/works/pict.png" alt="">
+						<h5 class="over-perig1">creatively designed</h5>
+						<p class="over-perig2">Lorem ipsum dolor sit.</p>
+					</div>
+		    </td>
+		  </tr>
+		  <tr>
+		    <td>
+		    	<img src="img/works/5.png" alt="" class="table-img">
+		    	<div class="img-over3"></div>
+					<div class="over-icon3">
+						<img src="img/works/pict.png" alt="">
+						<h5 class="over-perig1">creatively designed</h5>
+						<p class="over-perig2">Lorem ipsum dolor sit.</p>
+					</div>
+		    </td>
+		    <td>
+		    	<img src="img/works/6.png" alt="" class="table-img">
+		    	<div class="img-over3"></div>
+					<div class="over-icon3">
+						<img src="img/works/pict.png" alt="">
+						<h5 class="over-perig1">creatively designed</h5>
+						<p class="over-perig2">Lorem ipsum dolor sit.</p>
+					</div>
+		    </td>
+		    <td>
+		    	<img src="img/works/7.png" alt="" class="table-img">
+		    	<div class="img-over3"></div>
+					<div class="over-icon3">
+						<img src="img/works/pict.png" alt="">
+						<h5 class="over-perig1">creatively designed</h5>
+						<p class="over-perig2">Lorem ipsum dolor sit.</p>
+					</div>
+		  </td>
+		  </tr>
+		</table>
+	</section> -->
+	<section class="chat-slider">
+		<div class="slick-slider">
+			<div class="slider-items">
+				<div class="slider-item">
+					<div class="chat-left">
+						<div class="chat-img1">
+							<img src="img/team/elpistolero.PNG" alt="">
+						</div>
+					</div>
+					<div class="chat-right">
+						<p class="chat-perig">"<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta aut consequuntur pariatur placeat asperiores accusamus laudantium sint quisquam eveniet tempora?</span>"</p>
+						<div class="chat-name"><div class="name-before"></div>Jon Doe</div>
+					</div>
+				</div>
+				<div class="slider-item">
+					<div class="chat-left">
+						<div class="chat-img1">
+							<img src="img/team/inbrasil.PNG" alt="">
+						</div>
+					</div>
+					<div class="chat-right">
+						<p class="chat-perig">"<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta aut consequuntur pariatur placeat asperiores accusamus laudantium sint quisquam eveniet tempora?</span>"</p>
+						<div class="chat-name"><div class="name-before"></div>Rixsitillo Xomidov</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="happy-clients">
+		<div class="container text-center">
+			<div class="section-supheader">Happy Clients</div>
+			<div class="section-header">What people say</div>
+			<p class="about-perig">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum repellat cumque omnis amet, possimus in voluptatibus delectus sint, autem, ratione sit! Quis asperiores doloribus voluptatibus veritatis esse, itaque ut quae rerum ex corporis, dolorem impedit.</p>
+			<div class="row">
+				<div class="col-md-6">
+					<div class="client">
+						<div class="client-left">
+							<div class="client-img">
+								<img src="img/cllients/c1.png" alt="">
+							</div>
+						</div>
+						<div class="client-right">
+							<div class="client-header text-left">Matthew Dix</div>
+							<div class="team-subheader text-left">Graphic Design</div>
+							<div class="client-perig">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam harum natus soluta, quas praesentium, repellendus est sunt obcaecati quia totam.</div>
+						</div>
+					</div>	
+				</div>
+				<div class="col-md-6">
+					<div class="client">
+						<div class="client-left">
+							<div class="client-img">
+								<img src="img/cllients/c2.png" alt="">
+							</div>
+						</div>
+						<div class="client-right">
+							<div class="client-header text-left">Nick Karvounis</div>
+							<div class="team-subheader text-left">Graphic Design</div>
+							<div class="client-perig">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam harum natus soluta, quas praesentium, repellendus est sunt obcaecati quia totam.</div>
+						</div>
+					</div>	
+				</div>
+				<div class="col-md-6">
+					<div class="client">
+						<div class="client-left">
+							<div class="client-img">
+								<img src="img/team/capRX.PNG" alt="">
+							</div>
+						</div>
+						<div class="client-right">
+							<div class="client-header text-left">RX</div>
+							<div class="team-subheader text-left">Graphic Design</div>
+							<div class="client-perig">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam harum natus soluta, quas praesentium, repellendus est sunt obcaecati quia totam.</div>
+						</div>
+					</div>	
+				</div>
+				<div class="col-md-6">
+					<div class="client">
+						<div class="client-left">
+							<div class="client-img">
+								<img src="img/cllients/c4.png" alt="">
+							</div>
+						</div>
+						<div class="client-right">
+							<div class="client-header text-left">Mike Petrucci</div>
+							<div class="team-subheader text-left">Graphic Design</div>
+							<div class="client-perig">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam harum natus soluta, quas praesentium, repellendus est sunt obcaecati quia totam.</div>
+						</div>
+					</div>	
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="latest">
+		<div class="container text-center">
+			<div class="section-supheader">Our stories</div>
+			<div class="section-header">Latest blog</div>
+			<p class="about-perig">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum repellat cumque omnis amet, possimus in voluptatibus delectus sint, autem, ratione sit! Quis asperiores doloribus voluptatibus veritatis esse, itaque ut quae rerum ex corporis, dolorem impedit.</p>
+			<div class="row text-left">
+				<div class="col-md-4">
+					<div class="blog">
+						<div class="blog-img">
+							<img src="img/blog/blog.png" alt="">
+							<div class="img-date">
+								<div class="date-day">15</div>
+								<div class="date-month"><i>Jan</i></div>
+							</div>
+						</div>
+						<h5 class="blog-name">sed do eiusmod tempor</h5>
+						<p class="blog-perig">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam sequi, debitis ipsa et harum maiores!</p>
+						<hr>
+						<div class="bottom-icons">
+							<div class="bottom-icon">
+								<i class="fa fa-eye"></i>
+								<p class="bottom-perig">542</p>
+							</div>
+							<div class="bottom-icon">
+								<i class="fa fa-commenting"></i>
+								<p class="bottom-perig">17</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="blog">
+						<div class="blog-img">
+							<img src="img/blog/b2.png" alt="">
+							<div class="img-date">
+								<div class="date-day">14</div>
+								<div class="date-month"><i>Jan</i></div>
+							</div>
+						</div>
+						<h5 class="blog-name">incididunt ut labore et dolore</h5>
+						<p class="blog-perig">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam sequi, debitis ipsa et harum maiores!</p>
+						<hr>
+						<div class="bottom-icons">
+							<div class="bottom-icon">
+								<i class="fa fa-eye"></i>
+								<p class="bottom-perig">992</p>
+							</div>
+							<div class="bottom-icon">
+								<i class="fa fa-commenting"></i>
+								<p class="bottom-perig">42</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="blog">
+						<div class="blog-img">
+							<img src="img/blog/b3.png" alt="">
+							<div class="img-date">
+								<div class="date-day">12</div>
+								<div class="date-month"><i>Jan</i></div>
+							</div>
+						</div>
+						<h5 class="blog-name">Lorem ipsum dolor sit amet.</h5>
+						<p class="blog-perig">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam sequi, debitis ipsa et harum maiores!</p>
+						<hr>
+						<div class="bottom-icons">
+							<div class="bottom-icon">
+								<i class="fa fa-eye"></i>
+								<p class="bottom-perig">1560</p>
+							</div>
+							<div class="bottom-icon">
+								<i class="fa fa-commenting"></i>
+								<p class="bottom-perig">98</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="open">
+		<div class="container">
+			<div class="open-map text-center">
+				<img src="img/map-maker.png" alt="">
+				<button type="button" class="btn btn-light btn-map section-header" data-toggle="collapse" data-target="#demo-map"aria-expanded = "false">
+				OPEN MAP   
+				<i class="fa fa-chevron-down"></i>
+				<i class="fa fa-chevron-up"></i>
+			</button>
+			  <div id="demo-map" class="collapse">
+			    <img src="img/map.jpg" alt="">
+			  </div>
+			</div>
+		</div>
+	</section>
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-5 col-12">
+					<h2 class="footer-header">MoGo</h2>
+					<p class="footer-perig">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae fuga neque beatae ipsam dolorum laudantium alias architecto, possimus deserunt quaerat modi cum atque deleniti ipsa corporis nam eius dolore.</p>
+					<div class="followers">15k <span>followers</span></div>
+					<hr>
+					<div class="follow">
+						<div class="follow-us"><i>Follow Us:</i> </div>
+						<div class="follow-icons">
+							<i class="fa fa-facebook"></i>
+							<i class="fa fa-twitter"></i>
+							<i class="fa fa-instagram"></i>
+							<i class="fa fa-pinterest-p"></i>
+							<i class="fa fa-google-plus"></i>
+							<i class="fa fa-youtube-play"></i>
+							<i class="fa fa-dribbble"></i>
+							<i class="fa fa-tumblr"></i>
+						</div>
+					</div>
+					<div class="footer-form">
+						<input class="footer-input" type="email" placeholder="Your Email.." required>
+							<button type="submit" class="btn btn-subscribe">SUBSCRIBE</button>
+						</div>
+				</div>
+				<div class="col-md-7 col-12">
+					<div class="row">
+						<div class="col-md-6 col-12">
+							<h5 class="footer-blogs">blogs</h5>
+							<div class="footer-blog">
+								<div class="blog-left">
+									<img src="img/footer-blogs/1.png" alt="">
+									<div class="img-over4"></div>
+								</div>
+								<div class="blog-right">
+									<h5 class="blog-name1">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h5>
+									<div class="blog-date">Jan 9, 2016</div>
+								</div>
+							</div>
+							<div class="footer-blog">
+								<div class="blog-left">
+									<img src="img/footer-blogs/2.png" alt="">
+									<div class="img-over4"></div>
+								</div>
+								<div class="blog-right">
+									<h5 class="blog-name1">Lorem ipsum dolor sit amet, consectetur adipisicing.</h5>
+									<div class="blog-date">Jan 9, 2016</div>
+								</div>
+							</div>
+							<div class="footer-blog">
+								<div class="blog-left">
+									<img src="img/footer-blogs/3.png" alt="">
+									<div class="img-over4"></div>
+								</div>
+								<div class="blog-right">
+									<h5 class="blog-name1">Lorem ipsum dolor sit amet, consectetur adipisicing..</h5>
+									<div class="blog-date">Jan 9, 2016</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 col-12">
+							<h5 class="footer-blogs">instagram</h5>
+							<div class="instagram-blogs">
+								<img src="img/instagram/1.png" alt="">
+								<img src="img/instagram/2.png" alt="">
+								<img src="img/instagram/3.png" alt="">
+								<img src="img/instagram/4.png" alt="">
+								<img src="img/instagram/5.png" alt="">
+								<img src="img/instagram/6.png" alt="">
+								<img src="img/instagram/7.png" alt="">
+								<img src="img/instagram/8.png" alt="">
+								<img src="img/instagram/9.png" alt="">
+							</div>
+							<p class="wiew-more"><i>View more photos</i></p>
+						</div>
+					</div>
+				</div>
+			</div>	
+			<hr>
+				<div class="footer-end text-center">© 2020 MoGo free PSD template by <span>Laaqiq</span></div>
+		</div>
+	</footer>
+
+
+	<script src="js/jquery.js"></script>
+	<script src="js/script.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/wow.min.js"></script>
+	<!-- <script src="fontawesome/all.js"></script> -->
+	<link rel="stylesheet" href="slick/slick.css">
+	<link rel="stylesheet" href="slick/slick-theme.css">
+	<script src="slick/slick.js"></script>
+	<script> 
+
+		function openNav() {
+		    document.getElementById("mySidenav").style.width = "200px";
+		}
+
+		function closeNav() {
+		    document.getElementById("mySidenav").style.width = "0";
+		}
+
+	</script>
+</body>
+</html>
